@@ -3,8 +3,11 @@ body {
 
 	margin: auto;
 }
+.container {
+	width: 80%;
+	margin: auto;
+}
 .navbar {
-	width: inherit;
 	display: flex;
 	justify-content: space-between;
 	color: white;
@@ -59,9 +62,22 @@ li {
 	position: relative;
 	height: 450px;
 	background-color: aqua;
-	/* background-image: url(/home/moringa/Documents/agriplus/assets/images/image1.png); */
+	/* background-image: url(./assets/images/image1.png); */
 }
 .headline > img {
-	width: inherit;
+	width: 100%;
 	height: inherit;
+}
+.headline-text {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.headline-image {
+	position: absolute;
+	right: 0px;
+}
+.headline-image > img {
+	width: 400px;
+	height: 300px;
 }
