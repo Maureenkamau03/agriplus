@@ -53,4 +53,5 @@ li {
 	border: none;
 	text-decoration: none;
 	color: white;
+	background-color: inherit;
 }
