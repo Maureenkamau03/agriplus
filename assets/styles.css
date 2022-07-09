@@ -4,7 +4,7 @@ body {
 	margin: auto;
 }
 .container {
-	/* width: 80%; */
+	width: 85%;
 	margin: auto;
 }
 .navbar {
@@ -60,7 +60,7 @@ li {
 }
 .headline {
 	position: relative;
-	height: 500px;
+	height: 600px;
 
 	/* background-image: url(./assets/images/image1.png); */
 }
@@ -87,7 +87,7 @@ li {
 .stats {
 	position: absolute;
 	bottom: -30px;
-	right: 500px;
+	right: 200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -100,4 +100,36 @@ li {
 }
 .stats-details {
 	text-align: center;
+}
+.aboutus {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 60px;
+	margin-bottom: 50px;
+}
+.infor {
+	width: 50%;
+}
+.aboutus .text1 > h2 {
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.hero-text .text2 > p {
+	font-size: 25px;
+	text-align: left;
+}
+.aboutus-image {
+	/* width: 50%; */
+	height: inherit;
+}
+.aboutus img {
+	height: 400px;
+}
+.border {
+	background-color: #ed661f;
+	height: 5px;
+	width: 80px;
+	border-radius: 20px;
+	margin-left: 0px;
 }
