@@ -59,5 +59,9 @@ li {
 	position: relative;
 	height: 450px;
 	background-color: aqua;
-	background-image: url(../assets/images/image1.png);
+	/* background-image: url(/home/moringa/Documents/agriplus/assets/images/image1.png); */
+}
+.headline > img {
+	width: inherit;
+	height: inherit;
 }
