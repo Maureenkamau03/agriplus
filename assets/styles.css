@@ -1,3 +1,56 @@
 body {
 	font-family: "Poppins", "Inter";
+
+	margin: auto;
+}
+.navbar {
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 0 40px;
+	background-color: black;
+}
+.navitems {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+	margin: auto;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links > ul > li {
+	margin: 20px;
+}
+li {
+	display: inline;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn {
+	background-color: #ed661f;
+	text-align: center;
+	color: white;
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	margin: 20px;
+	padding: 20px;
+}
+.login {
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	text-decoration: none;
+	color: white;
 }
