@@ -28,6 +28,8 @@ This ia a landing page for agriplus. At agriplus you can buy and sell a wide ran
 
 ## Live link
 
+https://maureenkamau03.github.io/agriplus/
+
 ### Technology used
 
 - HTML - which was used to build the structure of the pages.
