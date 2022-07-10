@@ -209,8 +209,11 @@ h2 {
 	border: none;
 	font-size: 20px;
 }
-i img {
+.more i img {
 	color: #ed661f;
+	/* position: absolute;
+	bottom: -100px;
+ */
 }
 .border2 {
 	background-color: #ed661f;
@@ -224,4 +227,7 @@ i img {
 	background-color: lightgray;
 	margin-top: 100px;
 	border: none;
+}
+.reviews {
+	margin-top: 50px;
 }
