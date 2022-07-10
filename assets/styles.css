@@ -248,6 +248,10 @@ i {
 	color: #ed661f;
 	font-size: 48px;
 }
+#grey {
+	font-size: 48px;
+	color: lightgrey;
+}
 .customerinfor {
 	display: flex;
 	justify-content: space-between;
