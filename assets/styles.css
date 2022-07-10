@@ -166,3 +166,15 @@ a {
 h2 {
 	margin-bottom: 0px;
 }
+.popular-items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.items {
+	width: 20%;
+	margin: auto;
+}
+.items p:first-child {
+	font-weight: bold;
+}
