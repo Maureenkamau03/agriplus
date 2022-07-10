@@ -110,8 +110,15 @@ li {
 .infor {
 	width: 50%;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
+.active {
+	border-bottom: 3px solid #ed661f;
+}
 .aboutus .text1 > h2 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 500;
 	margin-bottom: 0px;
 }
@@ -131,5 +138,28 @@ li {
 	height: 5px;
 	width: 80px;
 	border-radius: 20px;
-	margin-left: 0px;
+	margin: 0px;
 }
+.prdct-categories {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.border1 {
+	position: absolute;
+	background-color: #ed661f;
+	height: 5px;
+	width: 80px;
+	border-radius: 20px;
+	margin: 0px;
+	right: 50%;
+}
+.prdct-categories > h2 {
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	border-color: #ed661f;
+}
+/* .prdct-categories > p {
+	border-top: 90px;
+} */
