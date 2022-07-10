@@ -230,16 +230,27 @@ h2 {
 }
 .reviews {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .custrev {
 	display: flex;
 	justify-content: space-between;
+	gap: 60px;
 	align-items: center;
+	padding: 50px;
 }
 .customer-review {
 	width: 30%;
-	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 i {
 	color: #ed661f;
+	font-size: 48px;
+}
+.customerinfor {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 100px;
+	margin-top: 50px;
 }
