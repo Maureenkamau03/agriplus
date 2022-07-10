@@ -90,7 +90,7 @@ li {
 .headline-image {
 	position: absolute;
 	top: 20px;
-	right: 300px;
+	right: 100px;
 }
 .headline-image > img {
 	width: 600px;
@@ -211,6 +211,8 @@ h2 {
 .see-all {
 	float: right;
 	font-size: medium;
+	/* display: flex;
+	align-items: center; */
 }
 .more {
 	background-color: inherit;
@@ -311,11 +313,12 @@ input {
 .footer {
 	background-color: black;
 	color: white;
-	height: 500px;
+	/* height: 500px; */
 	display: flex;
 }
 .socialhandles {
 	margin: 70px;
+	margin-bottom: 0px;
 	width: 50%;
 }
 .socialhandles img {
@@ -344,8 +347,22 @@ input {
 	display: flex;
 	justify-content: space-between;
 	float: right;
-	width: 50%;
+	width: 80%;
+	margin: 60px;
 }
 .allinone-container li {
-	display: inline;
+	display: block;
+	line-height: 50px;
+}
+.copyright {
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+.copyright h3 {
+	margin: opx;
+}
+.cont {
+	background-color: black;
 }
