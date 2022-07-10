@@ -231,3 +231,15 @@ h2 {
 .reviews {
 	margin-top: 50px;
 }
+.custrev {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.customer-review {
+	width: 30%;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+i {
+	color: #ed661f;
+}
