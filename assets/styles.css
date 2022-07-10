@@ -7,6 +7,15 @@ body {
 	width: 85%;
 	margin: auto;
 }
+
+@media (min-width: 1290px) {
+	.container {
+		max-width: 1290px !important;
+		margin: auto !important;
+		height: 100%;
+	}
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -249,7 +258,7 @@ i {
 	color: #ed661f;
 	font-size: 48px;
 }
-#grey {
+#greystar {
 	font-size: 48px;
 	color: lightgrey;
 }
@@ -269,14 +278,32 @@ i {
 	color: white;
 	text-align: center;
 	padding-top: 50px;
-	/* height: 500px; */
+	align-items: center;
+	height: 500px;
 }
-.form {
+input {
 	color: black;
 	background-color: white;
-	font-size: 70px;
-	width: 50%;
-	margin: auto;
+	font-size: 30px;
+	width: 30%;
+
 	/* position: absolute;
 	right: 80px; */
+}
+.subcribebtn {
+	background-color: #ed661f;
+	text-align: center;
+	color: white;
+	font-family: "Inter";
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	padding: 10px;
+	height: 15px;
+}
+.border3 {
+	height: 5px;
+	background-color: white;
+	margin-top: 80px;
+	border: none;
 }
