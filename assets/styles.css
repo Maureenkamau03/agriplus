@@ -242,7 +242,8 @@ h2 {
 .customer-review {
 	width: 30%;
 	padding: 30px;
-	box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 i {
 	color: #ed661f;
@@ -257,4 +258,25 @@ i {
 	justify-content: space-between;
 	padding-right: 100px;
 	margin-top: 50px;
+}
+.margin {
+	margin-bottom: 50px;
+	height: 100px;
+}
+.contactus {
+	margin-top: 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	/* height: 500px; */
+}
+.form {
+	color: black;
+	background-color: white;
+	font-size: 70px;
+	width: 50%;
+	margin: auto;
+	/* position: absolute;
+	right: 80px; */
 }
