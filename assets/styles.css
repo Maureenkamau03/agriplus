@@ -169,12 +169,22 @@ h2 {
 .popular-items {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	justify-content: center;
+	gap: 70px;
+	align-items: center;
+	margin-top: 30px;
+	width: 80%;
 }
 .items {
-	width: 20%;
-	margin: auto;
+	width: 30%;
 }
-.items p:first-child {
+
+#bold {
 	font-weight: bold;
+}
+.images {
+	width: 30%;
+}
+.items .images img {
+	width: 300px;
 }
