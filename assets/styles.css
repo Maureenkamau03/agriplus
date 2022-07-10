@@ -13,6 +13,9 @@ body {
 	color: white;
 	padding: 0 40px;
 	background-color: black;
+	/* position: fixed;
+	width: 80%;
+	margin-bottom: 100px; */
 }
 .navitems {
 	display: flex;
@@ -195,4 +198,30 @@ h2 {
 .most-populartext {
 	margin-left: -10px;
 	width: 80%;
+}
+.see-all {
+	float: right;
+	font-size: medium;
+}
+.more {
+	background-color: inherit;
+	color: black;
+	border: none;
+	font-size: 20px;
+}
+i img {
+	color: #ed661f;
+}
+.border2 {
+	background-color: #ed661f;
+	height: 5px;
+	width: 40px;
+	border-radius: 20px;
+	margin: 0px;
+}
+.hr-wide {
+	height: 40px;
+	background-color: lightgray;
+	margin-top: 100px;
+	border: none;
 }
