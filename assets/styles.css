@@ -101,6 +101,9 @@ li {
 .stats-details {
 	text-align: center;
 }
+.inforcontainer {
+	margin-left: 30px;
+}
 .aboutus {
 	display: flex;
 	justify-content: space-between;
@@ -173,6 +176,7 @@ h2 {
 	gap: 70px;
 	align-items: center;
 	margin-top: 30px;
+	margin-left: 20px;
 	width: 80%;
 }
 .items {
@@ -187,4 +191,7 @@ h2 {
 }
 .items .images img {
 	width: 300px;
+}
+.most-populartext {
+	margin-left: -10px;
 }
